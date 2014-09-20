@@ -13,6 +13,9 @@ namespace Models.Tests
         [TestMethod()]
         public void AddTest()
         {
+            //Test
+            int i = 0;
+            i = i + 1;
             var expect = 5;
             var target = new Calculator();
             var actual = target.Add(2, 3);
