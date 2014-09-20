@@ -15,7 +15,7 @@ namespace Models.Tests
         {
             //Test
             int i = 0;
-            i = i + 1;
+            i = i + 2;
             var expect = 5;
             var target = new Calculator();
             var actual = target.Add(2, 3);
