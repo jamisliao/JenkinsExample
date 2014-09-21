@@ -15,6 +15,7 @@ namespace JenkinsTest_ExampleTests.Models
         public void GivenIHaveEnteredIntoTheCalculator(int p0)
         {
             numbers[index] = p0;
+            index++;
         }
 
         [When(@"I press add")]
